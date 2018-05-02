@@ -1,4 +1,4 @@
-<!-- This is a basic template for ReadMe files -->
+
 
 # Eat-Da-Burger
 ## Simple as type and click to enjoy your favorite burger!
@@ -21,17 +21,16 @@
 
 ### 1-Description :page\_facing\_up:
 
-This app is a burger logger that utilizes MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Following the MVC design pattern, this app allows users to input into a dynamically generated (using handlebars.js) the burger they want to eat. Upon submitting the burger into the input form, the burger is automaticaly added to the website's database and added to the "Burgers to devour" section on the webpage. In the same section, users have the option to click on the "devour!" button to move the burger to the "Burgers that have been devoured!" section. Simply put, it allows users to track what burgers they want to eat and which burgers they have eaten.
+This app is a burger logger that utilizes MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Following the MVC design pattern, this app allows users to input into a dynamically generated (using handlebars.js) the burger they want to eat. Upon submitting the burger into the input form, the burger is automatically added to the website's database and added to the "Burgers to devour" section on the webpage. In the same section, users have the option to click on the "devour!" button to move the burger to the "Burgers that have been devoured!" section. Simply put, it allows users to track what burgers they want to eat and which burgers they have eaten.
 
-Though simple, this app showcases the full integration of front-end and back-end logic in a full-stack application. This same logic could be implemented in simple applications like a todo list or a board game, but also has relation to other larger scale apps.
-
+Though simple, this app showcases the full integration of front-end and back-end logic in a full-stack application. This same logic could be implemented in simple applications like a to-do list or a board game, but also has relation to other larger scale apps.
 
 > **Note:** Below is an image of the landing page for the project.
 
 
 
 
-![Book image](https://github.com/nick-d-brown/burger/blob/master/app/public/assets/images/burgerApp.png)
+![Book image](https://github.com/nick-d-brown/burger/blob/master/public/assets/images/burgerApp.png)
 
 
 ---
@@ -63,8 +62,7 @@ Though simple, this app showcases the full integration of front-end and back-end
 
 > **Note:** This section is meant for beginners an idea of what the *crux* technology was for this project. Ideally by seeing this first they will be able tackle the hard problem first to start the learning/absorption process as soon as possible.
 
-The Most challenging part of this project was primarily setting up the ORM (Object Relational Maping) and integrating it with the MVC Design pattern. In addition to the conceptual factor of understanding how the entire network of files is connected, there was the added chalenge of receiving and inputing user data into the database using the correct query method and syntax. Aside from using Stack Overflow, the majority of my progress was made using simple trial and error. READ THE ERROR MESSAGES they can be your best friend. Use the links listed below to learn more about the technology and remember **you will eventually learn how everything works!**
-
+The Most challenging part of this project was primarily setting up the ORM (Object Relational Mapping) and integrating it with the MVC Design pattern. In addition to the conceptual factor of understanding how the entire network of files is connected, there was the added challenge of receiving and inputting user data into the database using the correct query method and syntax. Aside from using Stack Overflow, the majority of my progress was made using simple trial and error. READ THE ERROR MESSAGES they can be your best friend. Use the links listed below to learn more about the technology and remember **you will eventually learn how everything works!**
 ---**Suggested Links**---
 
 -[Express.js - getting started](https://expressjs.com/en/starter/installing.html)
