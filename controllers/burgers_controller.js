@@ -22,6 +22,18 @@ routes.get("/", function (req, res) {
     })
 });
 
+routes.get("/index", function (req, res) {
+    // get all of the cats data and render it to the index html file
+    burger.selectAll(function (data) {
+        var hbsObject = {
+            burgers:data
+        };
+        console.log(hbsObject);
+        res.render("index", hbsObject)
+        
+    })
+});
+
 
 routes.post("/api/burgers", function (req, res) {
     console.log(req.body.name);
