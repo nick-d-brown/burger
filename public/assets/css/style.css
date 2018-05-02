@@ -1,0 +1,120 @@
+
+
+
+
+
+
+html {
+  padding: 0;
+  margin: 0;
+  /* font:  */
+  background-color: rgba(22, 22, 22, 0.952);
+  color: white;
+  font-family: 'Handlee', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Shrikhand', cursive;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  
+}
+
+ul{
+  padding: 0;
+}
+
+.menu-style {
+  background: #faebd7;
+  color: black;
+  margin: 2%;
+  padding: 5px;
+  /* width: 100%; */
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  flex-direction: column;
+  border-radius: 15px;
+  border: solid #FF1177 2px;
+}
+
+.burger-views {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.burgers-to-devour-box {
+
+}
+
+.devoured-burders-box{
+
+}
+
+
+
+.burger-list-items{
+  list-style: none;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.main-header{
+  position: relative;
+  text-align: center;
+  font-size: 4em;
+  color: #fff;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+  /* background-image: url(./../images/dinerTriangle.png);
+  background-attachment: fixed;
+  background-position: top; 
+  background-size: cover;
+  z-index: 1; */
+  font-family: 'Fontdiner Swanky', cursive;
+  /* width: 80%; */
+  text-align: center;
+}
+
+.secondary-header {
+  text-align: center;
+
+}
+
+.header-polygon{
+  position: relative;
+  top: -250px;
+  
+  /* z-index: 2; */
+}
+
+/*glow for webkit*/
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}
