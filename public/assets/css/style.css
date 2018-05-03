@@ -1,9 +1,5 @@
 
 
-
-
-
-
 html {
   padding: 0;
   margin: 0;
@@ -48,16 +44,6 @@ ul{
   justify-content: center;
   flex-direction: row;
 }
-
-.burgers-to-devour-box {
-
-}
-
-.devoured-burders-box{
-
-}
-
-
 
 .burger-list-items{
   list-style: none;
